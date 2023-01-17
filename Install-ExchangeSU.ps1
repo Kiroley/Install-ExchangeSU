@@ -1,5 +1,5 @@
 <#
-NZDF Exchange Script Version 1.1
+Exchange Script Version 1.1
 Last Update by Carrick Ellett 16/01/2023
  
 .SYNOPSIS
