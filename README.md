@@ -24,7 +24,9 @@ You will need to populate the config file with the remote path, local path, and 
     
 # More information
 
-You can set this script up to run as a scheduled task on the target server, permissions required are local administrator and whatever NTFS/File Share permissions to access the **UpdateFilePath**.
+You can set this script up to run as a scheduled task on the target server, permissions required are local administrator and whatever NTFS/File Share permissions to access the **UpdateFilePath**. 
+
+        Please note that if setting this up as a scheduled task you may need to call it a second time after a certain time as some ExchangeSU's trigger a restart.
 
 This way you can specify different **-configfile** XML files for servers in different sites that may access different shares.
 
