@@ -36,6 +36,8 @@ The script reports on the version of the executable in the install folder. This 
 
 # Why would I use this script?
 
-You may want to control when updates occur in your environment Exchange through semi-automation. Using this script I can update sites when I see fit (that point towards a seperate config file and file share) by simply copying a file into the updates folder. 
+You may want to control when updates occur in your environment through semi-automation. Using this script I can update sites when I choose
 
-   E.G. Week 1 place the update in the DC4 folder, all Exchange servers update that week. Next week place the update executable into the DC5 folder, all exchange     servers pointing toward that DC5 folder update that week. etc.
+E.G. Week 1 place the update in the DC4 folder, all Exchange servers looking at the DC4 folder update that week. Next week place the update executable into the DC5 folder, all exchange servers pointing toward that DC5 folder update that week and so on. 
+   
+
