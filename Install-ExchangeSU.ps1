@@ -1,6 +1,6 @@
 <#
 Exchange Script Version 1.1
-Last Update by Carrick Ellett 16/01/2023
+Last Update by Reuben Ellett 16/01/2023
  
 .SYNOPSIS
     This scripts installs an Exchange SU if it is a later version that currently installed
